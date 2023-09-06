@@ -70,5 +70,8 @@ module.exports = (env, arg) => ({
     /* new BundleAnalyzerPlugin({
         analyzerMode: 'static',
     }), */
-  ]
+  ],
+  devServer: {
+    allowedHosts: "all"
+  }
 });
